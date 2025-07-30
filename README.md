@@ -106,7 +106,7 @@ These column structures match insert orders used in the SQL scripts.
 ### 1. Clone or Download the Repository
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/shiven424/DTH-Data-Warehouse
 ```
 
 Alternatively, download the ZIP and extract it locally.
