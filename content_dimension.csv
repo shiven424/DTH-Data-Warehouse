@@ -1,0 +1,151 @@
+content_id, episode_name, series_name, release_date, language, rating
+1,S01E01 - Episode 1,Breaking Bad,2008-01-20,English,TV-MA
+2,S01E02 - Episode 2,Breaking Bad,2008-01-27,English,TV-MA
+3,S01E03 - Episode 3,Breaking Bad,2008-02-03,English,TV-MA
+4,S01E04 - Episode 4,Breaking Bad,2008-02-10,English,TV-MA
+5,S01E05 - Episode 5,Breaking Bad,2008-02-17,English,TV-MA
+6,S01E06 - Episode 6,Breaking Bad,2008-02-24,English,TV-MA
+7,S01E07 - Episode 7,Breaking Bad,2008-03-02,English,TV-MA
+8,S02E01 - Episode 8,Breaking Bad,2008-03-09,English,TV-MA
+9,S02E02 - Episode 9,Breaking Bad,2008-03-16,English,TV-MA
+10,S02E03 - Episode 10,Breaking Bad,2008-03-23,English,TV-MA
+11,S01E01 - Winter Is Coming,Game of Thrones,2011-04-17,English,TV-MA
+12,S01E02 - The Kingsroad,Game of Thrones,2011-04-24,English,TV-MA
+13,S01E03 - Lord Snow,Game of Thrones,2011-05-01,English,TV-MA
+14,"S01E04 - Cripples, Bastards...",Game of Thrones,2011-05-08,English,TV-MA
+15,S01E05 - The Wolf and the Lion,Game of Thrones,2011-05-15,English,TV-MA
+16,S01E06 - A Golden Crown,Game of Thrones,2011-05-22,English,TV-MA
+17,S01E07 - You Win or You Die,Game of Thrones,2011-05-29,English,TV-MA
+18,S01E08 - The Pointy End,Game of Thrones,2011-06-05,English,TV-MA
+19,S01E09 - Baelor,Game of Thrones,2011-06-12,English,TV-MA
+20,S01E10 - Fire and Blood,Game of Thrones,2011-06-19,English,TV-MA
+21,S01E01 - The One Where It All Began,Friends,1994-09-22,English,PG
+22,S01E02 - The One with the Sonogram,Friends,1994-09-29,English,PG
+23,S01E03 - The One with the Thumb,Friends,1994-10-06,English,PG
+24,S01E04 - The One with George...,Friends,1994-10-13,English,PG
+25,S01E05 - The One with the East...,Friends,1994-10-20,English,PG
+26,S01E06 - The One with the Butt,Friends,1994-10-27,English,PG
+27,S01E07 - The One with the Blackout,Friends,1994-11-03,English,PG
+28,S01E08 - The One Where Nana Dies...,Friends,1994-11-10,English,PG
+29,S01E09 - The One Where Underdog...,Friends,1994-11-17,English,PG
+30,S01E10 - The One with the Monkey,Friends,1994-11-24,English,PG
+31,S01E01 - The Vanishing of Will Byers,Stranger Things,2016-07-15,English,TV-14
+32,S01E02 - The Weirdo on Maple Street,Stranger Things,2016-07-22,English,TV-14
+33,"S01E03 - Holly, Jolly",Stranger Things,2016-07-29,English,TV-14
+34,S01E04 - The Body,Stranger Things,2016-08-05,English,TV-14
+35,S01E05 - The Flea and the Acrobat,Stranger Things,2016-08-12,English,TV-14
+36,S01E06 - The Monster,Stranger Things,2016-08-19,English,TV-14
+37,S01E07 - The Bathtub,Stranger Things,2016-08-26,English,TV-14
+38,S01E08 - The Upside Down,Stranger Things,2016-09-02,English,TV-14
+39,S02E01 - MADMAX,Stranger Things,2016-09-09,English,TV-14
+40,"S02E02 - Trick or Treat, Freak",Stranger Things,2016-09-16,English,TV-14
+41,S01E01 - Wolferton Splash,The Crown,2016-11-04,English,TV-14
+42,S01E02 - Hyde Park Corner,The Crown,2016-11-11,English,TV-14
+43,S01E03 - Windsor,The Crown,2016-11-18,English,TV-14
+44,S01E04 - Act of God,The Crown,2016-11-25,English,TV-14
+45,S01E05 - Smoke and Mirrors,The Crown,2016-12-02,English,TV-14
+46,S01E06 - Gelignite,The Crown,2016-12-09,English,TV-14
+47,S01E07 - Scientia Potentia Est,The Crown,2016-12-16,English,TV-14
+48,S01E08 - Pride & Joy,The Crown,2016-12-23,English,TV-14
+49,S01E09 - Assassins,The Crown,2016-12-30,English,TV-14
+50,S01E10 - Gloriana,The Crown,2017-01-06,English,TV-14
+51,S01E01 - Episode 1,Peaky Blinders,2013-09-12,English,TV-MA
+52,S01E02 - Episode 2,Peaky Blinders,2013-09-19,English,TV-MA
+53,S01E03 - Episode 3,Peaky Blinders,2013-09-26,English,TV-MA
+54,S01E04 - Episode 4,Peaky Blinders,2013-10-03,English,TV-MA
+55,S01E05 - Episode 5,Peaky Blinders,2013-10-10,English,TV-MA
+56,S01E06 - Episode 6,Peaky Blinders,2013-10-17,English,TV-MA
+57,S02E01 - Episode 1,Peaky Blinders,2013-10-24,English,TV-MA
+58,S02E02 - Episode 2,Peaky Blinders,2013-10-31,English,TV-MA
+59,S02E03 - Episode 3,Peaky Blinders,2013-11-07,English,TV-MA
+60,S02E04 - Episode 4,Peaky Blinders,2013-11-14,English,TV-MA
+61,S01E01 - Pilot,The Big Bang Theory,2007-09-24,English,TV-PG
+62,S01E02 - The Big Bran...,The Big Bang Theory,2007-10-01,English,TV-PG
+63,S01E03 - The Fuzzyboots...,The Big Bang Theory,2007-10-08,English,TV-PG
+64,S01E04 - The Luminous...,The Big Bang Theory,2007-10-15,English,TV-PG
+65,S01E05 - The Hamburger...,The Big Bang Theory,2007-10-22,English,TV-PG
+66,S01E06 - The Middle...,The Big Bang Theory,2007-10-29,English,TV-PG
+67,S01E07 - The Dumpling...,The Big Bang Theory,2007-11-05,English,TV-PG
+68,S01E08 - The Grasshopper...,The Big Bang Theory,2007-11-12,English,TV-PG
+69,S01E09 - The Cooper-Hofstadter...,The Big Bang Theory,2007-11-19,English,TV-PG
+70,S01E10 - The Loobenfeld...,The Big Bang Theory,2007-11-26,English,TV-PG
+71,S01E01 - Pilot,The Office,2005-03-24,English,TV-14
+72,S01E02 - Diversity Day,The Office,2005-03-31,English,TV-14
+73,S01E03 - Health Care,The Office,2005-04-07,English,TV-14
+74,S01E04 - The Alliance,The Office,2005-04-14,English,TV-14
+75,S01E05 - Basketball,The Office,2005-04-21,English,TV-14
+76,S01E06 - Hot Girl,The Office,2005-04-28,English,TV-14
+77,S02E01 - The Dundies,The Office,2005-05-05,English,TV-14
+78,S02E02 - Sexual Harassment,The Office,2005-05-12,English,TV-14
+79,S02E03 - Office Olympics,The Office,2005-05-19,English,TV-14
+80,S02E04 - The Fire,The Office,2005-05-26,English,TV-14
+81,S01E01 - Pilot,How I Met Your Mother,2005-09-19,English,TV-14
+82,S01E02 - Purple Giraffe,How I Met Your Mother,2005-09-26,English,TV-14
+83,S01E03 - Sweet Taste of Liberty,How I Met Your Mother,2005-10-03,English,TV-14
+84,S01E04 - Return of the Shirt,How I Met Your Mother,2005-10-10,English,TV-14
+85,S01E05 - Okay Awesome,How I Met Your Mother,2005-10-17,English,TV-14
+86,S01E06 - Slutty Pumpkin,How I Met Your Mother,2005-10-24,English,TV-14
+87,S01E07 - Matchmaker,How I Met Your Mother,2005-10-31,English,TV-14
+88,S01E08 - The Duel,How I Met Your Mother,2005-11-07,English,TV-14
+89,S01E09 - Belly Full of Turkey,How I Met Your Mother,2005-11-14,English,TV-14
+90,S01E10 - The Pineapple Incident,How I Met Your Mother,2005-11-21,English,TV-14
+91,S01E01 - Simpsons Roasting...,The Simpsons,1989-12-17,English,TV-PG
+92,S01E02 - Bart the Genius,The Simpsons,1989-12-24,English,TV-PG
+93,S01E03 - Homer Odyssey,The Simpsons,1989-12-31,English,TV-PG
+94,S01E04 - There No Disgrace Like Home,The Simpsons,1990-01-07,English,TV-PG
+95,S01E05 - Bart the General,The Simpsons,1990-01-14,English,TV-PG
+96,S01E06 - Moaning Lisa,The Simpsons,1990-01-21,English,TV-PG
+97,S01E07 - The Call of the Simpsons,The Simpsons,1990-01-28,English,TV-PG
+98,S01E08 - The Telltale Head,The Simpsons,1990-02-04,English,TV-PG
+99,S01E09 - Life on the Fast Lane,The Simpsons,1990-02-11,English,TV-PG
+100,S01E10 - Homer Night Out,The Simpsons,1990-02-18,English,TV-PG
+101,S01E01 - Descenso,Narcos,2015-08-28,Spanish,TV-MA
+102,S01E02 - The Sword of Sim?n Bol?var,Narcos,2015-09-04,Spanish,TV-MA
+103,S01E03 - The Men of Always,Narcos,2015-09-11,Spanish,TV-MA
+104,S01E04 - The Palace in Flames,Narcos,2015-09-18,Spanish,TV-MA
+105,S01E05 - There Will Be a Future,Narcos,2015-09-25,Spanish,TV-MA
+106,S01E06 - Explosivos,Narcos,2015-10-02,Spanish,TV-MA
+107,S01E07 - You Will Cry Tears...,Narcos,2015-10-09,Spanish,TV-MA
+108,S01E08 - La Gran Mentira,Narcos,2015-10-16,Spanish,TV-MA
+109,S01E09 - La Catedral,Narcos,2015-10-23,Spanish,TV-MA
+110,S01E10 - Despegue,Narcos,2015-10-30,Spanish,TV-MA
+111,S01E01 - Chapter 1: The Mandalorian,The Mandalorian,2019-11-12,English,TV-14
+112,S01E02 - Chapter 2: The Child,The Mandalorian,2019-11-19,English,TV-14
+113,S01E03 - Chapter 3: The Sin,The Mandalorian,2019-11-26,English,TV-14
+114,S01E04 - Chapter 4: Sanctuary,The Mandalorian,2019-12-03,English,TV-14
+115,S01E05 - Chapter 5: The Gunslinger,The Mandalorian,2019-12-10,English,TV-14
+116,S01E06 - Chapter 6: The Prisoner,The Mandalorian,2019-12-17,English,TV-14
+117,S01E07 - Chapter 7: The Reckoning,The Mandalorian,2019-12-24,English,TV-14
+118,S01E08 - Chapter 8: Redemption,The Mandalorian,2019-12-31,English,TV-14
+119,S02E01 - Chapter 9: The Marshal,The Mandalorian,2020-01-07,English,TV-14
+120,S02E02 - Chapter 10: The Passenger,The Mandalorian,2020-01-14,English,TV-14
+121,S01E01 - The Original,Westworld,2016-10-02,English,TV-MA
+122,S01E02 - Chestnut,Westworld,2016-10-09,English,TV-MA
+123,S01E03 - The Stray,Westworld,2016-10-16,English,TV-MA
+124,S01E04 - Dissonance Theory,Westworld,2016-10-23,English,TV-MA
+125,S01E05 - Contrapasso,Westworld,2016-10-30,English,TV-MA
+126,S01E06 - The Adversary,Westworld,2016-11-06,English,TV-MA
+127,S01E07 - Trompe LOeil,Westworld,2016-11-13,English,TV-MA
+128,S01E08 - Trace Decay,Westworld,2016-11-20,English,TV-MA
+129,S01E09 - The Well-Tempered Clavier,Westworld,2016-11-27,English,TV-MA
+130,S01E10 - The Bicameral Mind,Westworld,2016-12-04,English,TV-MA
+131,S01E01 - Chapter 1,House of Cards,2013-02-01,English,TV-MA
+132,S01E02 - Chapter 2,House of Cards,2013-02-08,English,TV-MA
+133,S01E03 - Chapter 3,House of Cards,2013-02-15,English,TV-MA
+134,S01E04 - Chapter 4,House of Cards,2013-02-22,English,TV-MA
+135,S01E05 - Chapter 5,House of Cards,2013-03-01,English,TV-MA
+136,S01E06 - Chapter 6,House of Cards,2013-03-08,English,TV-MA
+137,S01E07 - Chapter 7,House of Cards,2013-03-15,English,TV-MA
+138,S01E08 - Chapter 8,House of Cards,2013-03-22,English,TV-MA
+139,S01E09 - Chapter 9,House of Cards,2013-03-29,English,TV-MA
+140,S01E10 - Chapter 10,House of Cards,2013-04-05,English,TV-MA
+141,S01E01 - Rites of Passage,Vikings,2013-03-03,English,TV-MA
+142,S01E02 - Wrath of the Northmen,Vikings,2013-03-10,English,TV-MA
+143,S01E03 - Dispossessed,Vikings,2013-03-17,English,TV-MA
+144,S01E04 - Trial,Vikings,2013-03-24,English,TV-MA
+145,S01E05 - Raid,Vikings,2013-03-31,English,TV-MA
+146,S01E06 - Burial of the Dead,Vikings,2013-04-07,English,TV-MA
+147,S01E07 - A King Ransom,Vikings,2013-04-14,English,TV-MA
+148,S01E08 - Sacrifice,Vikings,2013-04-21,English,TV-MA
+149,S01E09 - All Change,Vikings,2013-04-28,English,TV-MA
+150,S01E10 - Earl Haraldson...,Vikings,2013-05-05,English,TV-MA

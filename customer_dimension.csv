@@ -1,0 +1,201 @@
+customer_id,customer_name,customer_email,customer_address,customer_city,customer_zipcode
+1,Amit Desai,amit.desai@example.com,"12 MG Road, Andheri East",Mumbai,400001
+2,Priya Shah,priya.shah@example.com,"45 Linking Road, Bandra",Mumbai,400002
+3,Rahul Mehta,rahul.mehta@example.com,"78 Worli Sea Face, Worli",Mumbai,400003
+4,Sneha Joshi,sneha.joshi@example.com,"90 Sion Fort, Sion",Mumbai,400004
+5,Rohan Patel,rohan.patel@example.com,"33 Colaba Causeway, Colaba",Mumbai,400005
+6,Neha Kulkarni,neha.kulkarni@example.com,"67 Juhu Beach Road, Juhu",Mumbai,400006
+7,Vikram Nair,vikram.nair@example.com,"21 Marine Drive, Churchgate",Mumbai,400007
+8,Shreya Reddy,shreya.reddy@example.com,"56 Powai Lake View, Powai",Mumbai,400008
+9,Suresh Patil,suresh.patil@example.com,"101 Shivaji Park, Dadar",Mumbai,400009
+10,Divya Iyer,divya.iyer@example.com,"34 Lower Parel, Parel",Mumbai,400010
+11,Manoj Singh,manoj.singh@example.com,"11 Connaught Place, New Delhi",Delhi,110001
+12,Anita Verma,anita.verma@example.com,"22 Janpath, New Delhi",Delhi,110002
+13,Sandeep Kumar,sandeep.kumar@example.com,"33 Lajpat Nagar, South Delhi",Delhi,110003
+14,Kavita Gupta,kavita.gupta@example.com,"44 Hauz Khas, South Delhi",Delhi,110004
+15,Vijay Sharma,vijay.sharma@example.com,"55 Dwarka Sector 10, Dwarka",Delhi,110005
+16,Pooja Malik,pooja.malik@example.com,"66 Vasant Kunj, South Delhi",Delhi,110006
+17,Rakesh Reddy,rakesh.reddy@example.com,"77 Saket, South Delhi",Delhi,110007
+18,Sunita Chawla,sunita.chawla@example.com,"88 Rajinder Nagar, East Delhi",Delhi,110008
+19,Amitabh Joshi,amitabh.joshi@example.com,"99 Patel Nagar, West Delhi",Delhi,110009
+20,Ritu Aggarwal,ritu.aggarwal@example.com,"100 Laxmi Nagar, East Delhi",Delhi,110010
+21,Vijay Kumar,vijay.kumar@example.com,"12 MG Road, Indiranagar",Bangalore,560001
+22,Deepa Reddy,deepa.reddy@example.com,"23 Brigade Road, MG Road",Bangalore,560002
+23,Suresh Rao,suresh.rao@example.com,"34 Residency Road, Koramangala",Bangalore,560003
+24,Lakshmi Menon,lakshmi.menon@example.com,"45 Church Street, Jayanagar",Bangalore,560004
+25,Arun Pillai,arun.pillai@example.com,"56 Cunningham Road, Malleshwaram",Bangalore,560005
+26,Rekha Nair,rekha.nair@example.com,"67 Ulsoor Road, Ulsoor",Bangalore,560006
+27,Ramesh Bhat,ramesh.bhat@example.com,"78 MG Road, Whitefield",Bangalore,560007
+28,Meena Shetty,meena.shetty@example.com,"89 Sarjapur Road, Sarjapur",Bangalore,560008
+29,Anil Kumar,anil.kumar@example.com,"90 Old Airport Road, Yelahanka",Bangalore,560009
+30,Sunita Desai,sunita.desai@example.com,"101 HSR Layout, HSR",Bangalore,560010
+31,Rohit Reddy,rohit.reddy@example.com,"12 Banjara Hills, Jubilee Hills",Hyderabad,500001
+32,Sushmita Rao,sushmita.rao@example.com,"23 Necklace Road, Banjara",Hyderabad,500002
+33,Ajay Kumar,ajay.kumar@example.com,"34 Tank Bund, Lakdikapul",Hyderabad,500003
+34,Preeti Singh,preeti.singh@example.com,"45 Himayat Nagar, Himayatnagar",Hyderabad,500004
+35,Vikas Verma,vikas.verma@example.com,"56 Gachibowli, Gachibowli",Hyderabad,500005
+36,Anjali Kapoor,anjali.kapoor@example.com,"67 Kukatpally, Kukatpally",Hyderabad,500006
+37,Sandeep Reddy,sandeep.reddy@example.com,"78 Ameerpet, Ameerpet",Hyderabad,500007
+38,Mala Nair,mala.nair@example.com,"89 Banjara Hills, Banjara",Hyderabad,500008
+39,Harish Gupta,harish.gupta@example.com,"90 Madhapur, Madhapur",Hyderabad,500009
+40,Kiran Rao,kiran.rao@example.com,"101 Gachibowli, Gachibowli",Hyderabad,500010
+41,Murali Krishnan,murali.krishnan@example.com,"12 Anna Salai, Georgetown",Chennai,600001
+42,Lakshmi Subramanian,lakshmi.subramanian@example.com,"23 T. Nagar, T. Nagar",Chennai,600002
+43,Sivakumar Iyer,sivakumar.iyer@example.com,"34 Mount Road, Mylapore",Chennai,600003
+44,Divya Ramesh,divya.ramesh@example.com,"45 Anna Salai, Egmore",Chennai,600004
+45,Karthik Kumar,karthik.kumar@example.com,"56 R.A. Puram, Egmore",Chennai,600005
+46,Nandini Rao,nandini.rao@example.com,"67 Poonamallee High Road, Poonamallee",Chennai,600006
+47,Arvind Menon,arvind.menon@example.com,"78 Velachery Main Road, Velachery",Chennai,600007
+48,Priya Nair,priya.nair@example.com,"89 OMR, Besant Nagar",Chennai,600008
+49,Sundar Reddy,sundar.reddy@example.com,"90 GST Road, Tambaram",Chennai,600009
+50,Meera Krishnan,meera.krishnan@example.com,"101 Mount Road, Mylapore",Chennai,600010
+51,Ramesh Chatterjee,ramesh.chatterjee@example.com,"12 Park Street, Central",Kolkata,700001
+52,Sunita Banerjee,sunita.banerjee@example.com,"23 Park Street, Bhowanipore",Kolkata,700002
+53,Amitava Ghosh,amitava.ghosh@example.com,"34 Mother Teresa Sarani, Ballygunge",Kolkata,700003
+54,Madhuri Sen,madhuri.sen@example.com,"45 Sudder Street, Burrabazar",Kolkata,700004
+55,Pradeep Roy,pradeep.roy@example.com,"56 Camac Street, New Town",Kolkata,700005
+56,Kalyani Das,kalyani.das@example.com,"67 MG Road, Salt Lake",Kolkata,700006
+57,Sourav Dutta,sourav.dutta@example.com,"78 Howrah Bridge Road, Howrah",Kolkata,700007
+58,Lata Mukherjee,lata.mukherjee@example.com,"89 Rabindra Sarani, Esplanade",Kolkata,700008
+59,Subhash Mukherjee,subhash.mukherjee@example.com,"90 Park Street, Dalhousie",Kolkata,700009
+60,Rina Chatterjee,rina.chatterjee@example.com,"101 Chowringhee Road, Chowringhee",Kolkata,700010
+61,Sagar Deshmukh,sagar.deshmukh@example.com,"12 FC Road, Koregaon Park",Pune,411001
+62,Isha Kulkarni,isha.kulkarni@example.com,"23 JM Road, Shivajinagar",Pune,411002
+63,Aakash Patil,aakash.patil@example.com,"34 Senapati Bapat Road, Camp",Pune,411003
+64,Sneha Deshpande,sneha.deshpande@example.com,"45 MG Road, Wanowrie",Pune,411004
+65,Rohit Shinde,rohit.shinde@example.com,"56 Baner Road, Shivajinagar",Pune,411005
+66,Mira More,mira.more@example.com,"67 Viman Nagar Road, Viman Nagar",Pune,411006
+67,Rahul Jadhav,rahul.jadhav@example.com,"78 Karve Road, Koregaon Park",Pune,411007
+68,Aishwarya Deshmukh,aishwarya.deshmukh@example.com,"89 JM Road, Hadapsar",Pune,411008
+69,Manoj Patil,manoj.patil@example.com,"90 Laxmi Road, Shivajinagar",Pune,411009
+70,Kavya Kulkarni,kavya.kulkarni@example.com,"101 Kalyani Nagar, Kothrud",Pune,411010
+71,Rakesh Patel,rakesh.patel@example.com,"12 Law Garden Road, Navrangpura",Ahmedabad,380001
+72,Meena Shah,meena.shah@example.com,"23 CG Road, Maninagar",Ahmedabad,380002
+73,Amit Desai,amit.desai@example.com,"34 Satellite Road, Vastrapur",Ahmedabad,380003
+74,Priya Joshi,priya.joshi@example.com,"45 Ashram Road, Ellisbridge",Ahmedabad,380004
+75,Sanjay Mehta,sanjay.mehta@example.com,"56 SG Highway, Paldi",Ahmedabad,380005
+76,Neha Patel,neha.patel@example.com,"67 NR Square, Kalupur",Ahmedabad,380006
+77,Vijay Shah,vijay.shah@example.com,"78 Ashram Road, Navrangpura",Ahmedabad,380007
+78,Kiran Desai,kiran.desai@example.com,"89 C.G. Road, Navrangpura",Ahmedabad,380008
+79,Arjun Shah,arjun.shah@example.com,"90 Satellite Road, Maninagar",Ahmedabad,380009
+80,Sonia Mehta,sonia.mehta@example.com,"101 SG Highway, Ellisbridge",Ahmedabad,380010
+81,Rohan Singh,rohan.singh@example.com,"12 Johari Bazaar, Bani Park",Jaipur,302001
+82,Pooja Sharma,pooja.sharma@example.com,"23 MI Road, C-Scheme",Jaipur,302002
+83,Amit Kumar,amit.kumar@example.com,"34 Ajmer Road, Vaishali Nagar",Jaipur,302003
+84,Neelam Gupta,neelam.gupta@example.com,"45 M.I. Road, Raja Park",Jaipur,302004
+85,Suresh Yadav,suresh.yadav@example.com,"56 Tonk Road, Kishangarh",Jaipur,302005
+86,Komal Mehta,komal.mehta@example.com,"67 Raja Park, Malviya Nagar",Jaipur,302006
+87,Vikas Singh,vikas.singh@example.com,"78 Bani Park, Jhotwara",Jaipur,302007
+88,Ritu Sharma,ritu.sharma@example.com,"89 Jawahar Lal Nehru Marg, Jagatpura",Jaipur,302008
+89,Manoj Kumar,manoj.kumar@example.com,"90 Ajmer Road, Kishangarh",Jaipur,302009
+90,Anjali Singh,anjali.singh@example.com,"101 MI Road, C-Scheme",Jaipur,302010
+91,Rajesh Singh,rajesh.singh@example.com,"12 Aminabad Road, Aminabad",Lucknow,226001
+92,Seema Mishra,seema.mishra@example.com,"23 Hazratganj, Lucknow",Lucknow,226002
+93,Vijay Prasad,vijay.prasad@example.com,"34 Hazratganj, Lucknow",Lucknow,226003
+94,Anita Singh,anita.singh@example.com,"45 Mall Road, Aliganj",Lucknow,226004
+95,Sanjay Kumar,sanjay.kumar@example.com,"56 Chowk, Lucknow",Lucknow,226005
+96,Rekha Verma,rekha.verma@example.com,"67 Aminabad Road, Hazratganj",Lucknow,226006
+97,Arun Sharma,arun.sharma@example.com,"78 MG Road, Gomti Nagar",Lucknow,226007
+98,Deepa Singh,deepa.singh@example.com,"89 Lucknow Road, Alambagh",Lucknow,226008
+99,Kamal Gupta,kamal.gupta@example.com,"90 Hazratganj, Lucknow",Lucknow,226009
+100,Sunita Pandey,sunita.pandey@example.com,"101 Aminabad, Lucknow",Lucknow,226010
+101,Harpreet Kaur,harpreet.kaur@example.com,"12 Sector 17, Industrial Area",Chandigarh,160001
+102,Gurpreet Singh,gurpreet.singh@example.com,"23 Sector 10, Industrial Area",Chandigarh,160002
+103,Maninder Kaur,maninder.kaur@example.com,"34 Sector 22, Industrial Area",Chandigarh,160003
+104,Sandeep Singh,sandeep.singh@example.com,"45 Sector 15, Industrial Area",Chandigarh,160004
+105,Simran Kaur,simran.kaur@example.com,"56 Sector 8, Industrial Area",Chandigarh,160005
+106,Rajdeep Singh,rajdeep.singh@example.com,"67 Sector 10, Industrial Area",Chandigarh,160006
+107,Navdeep Kaur,navdeep.kaur@example.com,"78 Sector 12, Industrial Area",Chandigarh,160007
+108,Parminder Singh,parminder.singh@example.com,"89 Sector 11, Industrial Area",Chandigarh,160008
+109,Amritpal Kaur,amritpal.kaur@example.com,"90 Sector 16, Industrial Area",Chandigarh,160009
+110,Baljit Singh,baljit.singh@example.com,"101 Sector 20, Industrial Area",Chandigarh,160010
+111,Suresh Menon,suresh.menon@example.com,"12 MG Road, Marine Drive",Kochi,682001
+112,Lakshmi Nair,lakshmi.nair@example.com,"23 Sahodaran Ayyappan Road, Fort Kochi",Kochi,682002
+113,Ravi Varma,ravi.varma@example.com,"34 MG Road, Ernakulam",Kochi,682003
+114,Anjali Menon,anjali.menon@example.com,"45 Kaloor, Kakkanad",Kochi,682004
+115,Vijay Nair,vijay.nair@example.com,"56 MG Road, Edappally",Kochi,682005
+116,Sita Menon,sita.menon@example.com,"67 Bishop Road, Fort Kochi",Kochi,682006
+117,Ramesh Kumar,ramesh.kumar@example.com,"78 Marine Drive, Mattancherry",Kochi,682007
+118,Divya Nair,divya.nair@example.com,"89 MG Road, Panampilly Nagar",Kochi,682008
+119,Arun Varma,arun.varma@example.com,"90 Kaloor Road, Ernakulam",Kochi,682009
+120,Neeta Menon,neeta.menon@example.com,"101 MG Road, Fort Kochi",Kochi,682010
+121,Prakash Deshmukh,prakash.deshmukh@example.com,"12 Wardha Road, Civil Lines",Nagpur,440001
+122,Geeta Patil,geeta.patil@example.com,"23 Sitabuldi, Nagpur",Nagpur,440002
+123,Mahesh Singh,mahesh.singh@example.com,"34 Kamptee Road, Hingna",Nagpur,440003
+124,Radhika Joshi,radhika.joshi@example.com,"45 Fatima Road, Dharampeth",Nagpur,440004
+125,Sanjay Patil,sanjay.patil@example.com,"56 Wardha Road, Sadar",Nagpur,440005
+126,Anita Singh,anita.singh@example.com,"67 Dharampeth, Nagpur",Nagpur,440006
+127,Vijay Patil,vijay.patil@example.com,"78 Sadar Road, Ambazari",Nagpur,440007
+128,Meena Deshmukh,meena.deshmukh@example.com,"89 Sitabuldi, Nagpur",Nagpur,440008
+129,Amit Gupta,amit.gupta@example.com,"90 Kamptee Road, Hingna",Nagpur,440009
+130,Suman Patil,suman.patil@example.com,"101 Civil Lines, Nagpur",Nagpur,440010
+131,Rajesh Kumar,rajesh.kumar@example.com,"12 New Market Road, Arera Colony",Bhopal,462001
+132,Deepa Singh,deepa.singh@example.com,"23 Maharana Pratap Nagar, Arera Colony",Bhopal,462002
+133,Vikram Patel,vikram.patel@example.com,"34 MP Nagar, Indrapuri",Bhopal,462003
+134,Sonal Mehta,sonal.mehta@example.com,"45 Bharatpur Road, Hoshangabad",Bhopal,462004
+135,Anil Verma,anil.verma@example.com,"56 Gandhi Marg, Kalka",Bhopal,462005
+136,Kiran Sharma,kiran.sharma@example.com,"67 MG Road, Kolar",Bhopal,462006
+137,Ravi Deshmukh,ravi.deshmukh@example.com,"78 Tilak Road, Mandideep",Bhopal,462007
+138,Pooja Singh,pooja.singh@example.com,"89 Sabarmati, Sukhliya",Bhopal,462008
+139,Suresh Yadav,suresh.yadav@example.com,"90 Indrapuri, Bhopal",Bhopal,462009
+140,Neeta Patel,neeta.patel@example.com,"101 Rajghat, Bhopal",Bhopal,462010
+141,Amit Sharma,amit.sharma@example.com,"12 MG Road, Vijay Nagar",Indore,452001
+142,Pooja Verma,pooja.verma@example.com,"23 Palm Drive, New Indore",Indore,452002
+143,Rohit Patel,rohit.patel@example.com,"34 Sanwer Road, Vijay Nagar",Indore,452003
+144,Sonal Shah,sonal.shah@example.com,"45 Narmadapuram Road, Old Palasia",Indore,452004
+145,Deepak Mehta,deepak.mehta@example.com,"56 Mhow Road, Rau",Indore,452005
+146,Anjali Singh,anjali.singh@example.com,"67 Shyam Road, Sanwer",Indore,452006
+147,Manoj Gupta,manoj.gupta@example.com,"78 Airport Road, Rau",Indore,452007
+148,Kavita Reddy,kavita.reddy@example.com,"89 AB Road, Vijay Nagar",Indore,452008
+149,Vikas Kumar,vikas.kumar@example.com,"90 MG Road, New Indore",Indore,452009
+150,Rita Patel,rita.patel@example.com,"101 Indore Bypass, Indore",Indore,452010
+151,Suresh Patel,suresh.patel@example.com,"12 Ring Road, Adajan",Surat,395001
+152,Neha Shah,neha.shah@example.com,"23 Dumas Road, Athwa",Surat,395002
+153,Ravi Desai,ravi.desai@example.com,"34 Sardar Patel Road, Pal",Surat,395003
+154,Pooja Mehta,pooja.mehta@example.com,"45 Udhana Road, Varachha",Surat,395004
+155,Amit Joshi,amit.joshi@example.com,"56 Navsari Road, Adajan",Surat,395005
+156,Kiran Patel,kiran.patel@example.com,"67 Ring Road, Piplod",Surat,395006
+157,Vijay Shah,vijay.shah@example.com,"78 Satellite Road, Pal",Surat,395007
+158,Sunita Desai,sunita.desai@example.com,"89 Katargam Road, Katargam",Surat,395008
+159,Rahul Mehta,rahul.mehta@example.com,"90 Varachha Road, Athwa",Surat,395009
+160,Ritu Shah,ritu.shah@example.com,"101 Surat Road, Pal",Surat,395010
+161,Anil Kumar,anil.kumar@example.com,"12 Gandhi Maidan Road, Patna City",Patna,800001
+162,Sunita Kumari,sunita.kumari@example.com,"23 Maurya Lok, Patna",Patna,800002
+163,Rajesh Kumar,rajesh.kumar@example.com,"34 Bailey Road, Patna",Patna,800003
+164,Rekha Singh,rekha.singh@example.com,"45 Ashok Rajpath, Patna",Patna,800004
+165,Vikram Singh,vikram.singh@example.com,"56 Patel More, Patna",Patna,800005
+166,Pooja Devi,pooja.devi@example.com,"67 Kankarbagh, Patna",Patna,800006
+167,Manoj Kumar,manoj.kumar@example.com,"78 Bailey Road, Patna",Patna,800007
+168,Neelam Kumari,neelam.kumari@example.com,"89 Patna City, Patna",Patna,800008
+169,Sanjay Singh,sanjay.singh@example.com,"90 Gandhi Maidan Road, Patna",Patna,800009
+170,Anita Devi,anita.devi@example.com,"101 Maurya Lok, Patna",Patna,800010
+171,Rakesh Rao,rakesh.rao@example.com,"12 Sayajigunj, Central",Vadodara,390001
+172,Deepa Shah,deepa.shah@example.com,"23 Alkapuri, Central",Vadodara,390002
+173,Suresh Patel,suresh.patel@example.com,"34 Mandvi, Central",Vadodara,390003
+174,Neeta Desai,neeta.desai@example.com,"45 Gotri, Central",Vadodara,390004
+175,Amit Shah,amit.shah@example.com,"56 Eklakhi, Central",Vadodara,390005
+176,Kiran Patel,kiran.patel@example.com,"67 Alkapuri, Central",Vadodara,390006
+177,Vijay Mehta,vijay.mehta@example.com,"78 Bhagat, Central",Vadodara,390007
+178,Priya Rao,priya.rao@example.com,"89 Akota, Central",Vadodara,390008
+179,Rajesh Desai,rajesh.desai@example.com,"90 Bhatar, Central",Vadodara,390009
+180,Sonal Patel,sonal.patel@example.com,"101 Vasna, Central",Vadodara,390010
+181,Gurpreet Singh,gurpreet.singh@example.com,"12 Ferozepur Road, Urban Area",Ludhiana,141001
+182,Simran Kaur,simran.kaur@example.com,"23 Model Town, Urban Area",Ludhiana,141002
+183,Baljit Singh,baljit.singh@example.com,"34 Civil Lines, Urban Area",Ludhiana,141003
+184,Rajinder Kaur,rajinder.kaur@example.com,"45 Guru Nanak Road, Urban Area",Ludhiana,141004
+185,Manjit Singh,manjit.singh@example.com,"56 East Ludhiana, Urban Area",Ludhiana,141005
+186,Sukhwinder Kaur,sukhwinder.kaur@example.com,"67 Railway Road, Urban Area",Ludhiana,141006
+187,Harsimran Singh,harsimran.singh@example.com,"78 West Ludhiana, Urban Area",Ludhiana,141007
+188,Navjot Kaur,navjot.kaur@example.com,"89 Cantonment, Urban Area",Ludhiana,141008
+189,Harpreet Singh,harpreet.singh@example.com,"90 Punjab Road, Urban Area",Ludhiana,141009
+190,Amarjeet Kaur,amarjeet.kaur@example.com,"101 Station Road, Urban Area",Ludhiana,141010
+191,Karthik Reddy,karthik.reddy@example.com,"12 Avinashi Road, R.S. Puram",Coimbatore,641001
+192,Divya Nair,divya.nair@example.com,"23 Pollachi Road, Peelamedu",Coimbatore,641002
+193,Suresh Kumar,suresh.kumar@example.com,"34 Trichy Road, Saravanampatti",Coimbatore,641003
+194,Lakshmi Iyer,lakshmi.iyer@example.com,"45 Peelamedu, Peelamedu",Coimbatore,641004
+195,Rahul Menon,rahul.menon@example.com,"56 Avinashi Road, RS Puram",Coimbatore,641005
+196,Meena Krishnan,meena.krishnan@example.com,"67 Gopalakrishnan Street, Gopalapuram",Coimbatore,641006
+197,Arun Kumar,arun.kumar@example.com,"78 Mettupalayam Road, Singanallur",Coimbatore,641007
+198,Anita Reddy,anita.reddy@example.com,"89 Peelamedu, Peelamedu",Coimbatore,641008
+199,Vijay Kumar,vijay.kumar@example.com,"90 Sathy Road, RS Puram",Coimbatore,641009
+200,Sneha Menon,sneha.menon@example.com,"101 Marudamalai Road, Marudamalai",Coimbatore,641010

@@ -1,0 +1,51 @@
+plan_id,plan_name,plan_price,channel_package,plan_duration
+1,Basic,29.99,Basic Channels,30 days
+2,Premium,49.99,Premium Channels,30 days
+3,Standard Plan,39.99,Essentials Plus,30 days
+4,Family Plan,49.99,Family Pack,30 days
+5,Sports Plan,29.99,Sports Pack,30 days
+6,Entertainment Plan,34.99,Entertainment Pack,30 days
+7,HD Plan,44.99,HD Pack,30 days
+8,Ultra HD Plan,54.99,Ultra HD Pack,30 days
+9,Kids Plan,24.99,Kids Pack,30 days
+10,News Plan,19.99,News Pack,30 days
+11,Economy Plan,19.99,Economy Channels,30 days
+12,Value Plan,24.99,Value Channels,30 days
+13,Silver Plan,34.99,Silver Package,30 days
+14,Gold Plan,44.99,Gold Package,30 days
+15,Platinum Plan,59.99,Platinum Package,30 days
+16,Movie Pack,39.99,Movie Channels,30 days
+17,International Plan,49.99,Global Channels,30 days
+18,Regional Plan,29.99,Regional Channels,30 days
+19,Combo Plan,39.99,Combo Channels,30 days
+20,Music Plan,19.99,Music Channels,30 days
+21,Drama Plan,24.99,Drama Channels,30 days
+22,Documentary Plan,34.99,Documentary Channels,30 days
+23,Lifestyle Plan,29.99,Lifestyle Channels,30 days
+24,Adventure Plan,39.99,Adventure Channels,30 days
+25,Sports Plus,34.99,Sports Plus Pack,30 days
+26,Ultimate Entertainment,59.99,Ultimate Entertainment Pack,30 days
+27,Classic Plan,27.99,Classic Channels,30 days
+28,Retro Plan,22.99,Retro Channels,30 days
+29,Kids Plus,29.99,Kids Plus Pack,30 days
+30,Teen Plan,24.99,Teen Channels,30 days
+31,Family Plus,54.99,Family Plus Pack,30 days
+32,Super Sports,39.99,Super Sports Pack,30 days
+33,Live Sports,34.99,Live Sports Channels,30 days
+34,Multi-Lingual Plan,44.99,Multi-Lingual Channels,30 days
+35,Regional Plus,34.99,Enhanced Regional Pack,30 days
+36,Economy Plus,21.99,Economy Plus Pack,30 days
+37,Digital Plan,29.99,Digital Channels,30 days
+38,Cinema Plan,39.99,Cinema Channels,30 days
+39,Deluxe Plan,49.99,Deluxe Channel Pack,30 days
+40,VIP Plan,69.99,VIP Channel Pack,30 days
+41,Ultra Combo,59.99,Ultra Combo Pack,30 days
+42,Express Plan,19.99,Express Channels,30 days
+43,Premium Plus,64.99,Premium Plus Pack,30 days
+44,Balanced Plan,34.99,Balanced Channel Pack,30 days
+45,Focus Plan,29.99,Focused Channels,30 days
+46,Trend Plan,39.99,Trendy Channels,30 days
+47,Smart Plan,24.99,Smart Channels,30 days
+48,Flex Plan,27.99,Flexible Channels,30 days
+49,Connect Plan,32.99,Connected Channels,30 days
+50,Ultimate Combo,74.99,Ultimate Combo Pack,30 days

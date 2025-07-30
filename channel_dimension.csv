@@ -1,0 +1,106 @@
+channel_id,channel_name,channel_genre,channel_language
+1,CNN-News18,News,English
+2,NDTV,News,English
+3,Times Now,News,English
+4,Republic TV,News,English
+5,Zee News,News,Hindi
+6,Aaj Tak,News,Hindi
+7,ABP News,News,Hindi
+8,India Today,News,English
+9,CNBC-TV18,Business,English
+10,ET Now,Business,English
+11,Star Plus,Entertainment,Hindi
+12,Colors,Entertainment,Hindi
+13,Sony Entertainment,Entertainment,Hindi
+14,Zee TV,Entertainment,Hindi
+15,SAB TV,Entertainment,Hindi
+16,&TV,Entertainment,Hindi
+17,Star Bharat,Entertainment,Hindi
+18,Sony SAB,Entertainment,Hindi
+19,Star Gold,Movies,Hindi
+20,Zee Cinema,Movies,Hindi
+21,Sony Max,Movies,Hindi
+22,UTV Movies,Movies,Hindi
+23,Star Movies,Movies,English
+24,Star World,Entertainment,English
+25,Colors Cineplex,Movies,Hindi
+26,Epic,Entertainment,Hindi
+27,Discovery Channel,Documentary,English
+28,History TV18,Documentary,English
+29,Nat Geo Wild,Documentary,English
+30,Animal Planet,Documentary,English
+31,Discovery Kids,Kids,English
+32,Cartoon Network,Kids,English
+33,Pogo,Kids,English
+34,Hungama TV,Kids,Hindi
+35,Sonic,Kids,Hindi
+36,Disney Channel,Kids,English
+37,Disney Channel India,Kids,Hindi
+38,Nick India,Kids,Hindi
+39,Star Sports,Sports,English
+40,Sony Ten,Sports,English
+41,Star Sports 1 Hindi,Sports,Hindi
+42,Star Sports Select 1,Sports,English
+43,Sony ESPN,Sports,Hindi
+44,Ten Golf,Sports,English
+45,DSPORT,Sports,English
+46,Eurosport India,Sports,English
+47,Star World Premiere,Movies,English
+48,HBO,Entertainment,English
+49,AXN,Entertainment,English
+50,Sony BBC Earth,Documentary,English
+51,BBC World News,News,English
+52,Zee TV Tamil,Entertainment,Tamil
+53,Sun TV,Entertainment,Tamil
+54,Star Vijay,Entertainment,Tamil
+55,Colors Tamil,Entertainment,Tamil
+56,Zee Tamil,Entertainment,Tamil
+57,Jaya TV,Entertainment,Tamil
+58,Kalaignar TV,Entertainment,Tamil
+59,Polimer TV,Entertainment,Tamil
+60,Raj TV,Entertainment,Tamil
+61,DD Podhigai,Entertainment,Tamil
+62,ETV Kannada,Entertainment,Kannada
+63,Udaya TV,Entertainment,Kannada
+64,Colors Kannada,Entertainment,Kannada
+65,Zee Kannada,Entertainment,Kannada
+66,Star Suvarna,Entertainment,Kannada
+67,TV9 Kannada,News,Kannada
+68,Public TV,Entertainment,Kannada
+69,Vasanth TV,Entertainment,Malayalam
+70,Asianet,Entertainment,Malayalam
+71,Surya TV,Entertainment,Malayalam
+72,Mazhavil Manorama,Entertainment,Malayalam
+73,Kairali TV,Entertainment,Malayalam
+74,Jaihind TV,News,Malayalam
+75,News18 Kerala,News,Malayalam
+76,Reporter TV,News,Malayalam
+77,Flowers TV,Entertainment,Malayalam
+78,Amrita TV,Entertainment,Malayalam
+79,DD News,News,English
+80,Lok Sabha TV,Parliamentary,English
+81,Rajya Sabha TV,Parliamentary,English
+82,Sansad TV,Parliamentary,English
+83,DD Sports,Sports,Hindi
+84,Sony TEN 2,Sports,English
+85,Sony ESPN HD,Sports,English
+86,NDTV Prime,Entertainment,English
+87,Colors Rishtey,Entertainment,Hindi
+88,Star Utsav,Entertainment,Hindi
+89,Epic TV,Entertainment,Hindi
+90,Big Magic,Entertainment,Hindi
+91,Star One,Entertainment,Hindi
+92,Zoom,Entertainment,Hindi
+93,NewsX,News,English
+94,India TV,News,Hindi
+95,WION,News,English
+96,Republic Bharat,News,Hindi
+97,ABP Ananda,News,Bengali
+98,Zee 24 Ghanta,News,Hindi
+99,Dangal,Entertainment,Hindi
+100,Sun Bollywood,Entertainment,Hindi
+101,Zee Marathi,Entertainment,Marathi
+102,Colors Marathi,Entertainment,Marathi
+103,Star Pravah,Entertainment,Marathi
+104,Sony Marathi,Entertainment,Marathi
+105,ABP Majha,News,Marathi

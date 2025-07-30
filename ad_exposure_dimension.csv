@@ -1,0 +1,21 @@
+ad_exposure_id,ad_type,impressions_count,skipped_flag
+1,Banner (Footer),1200,N
+2,Banner (Header),850,N
+3,Fullscreen Interstitial,600,Y
+4,Fullscreen Interstitial,620,N
+5,Mid-Roll Overlay,450,Y
+6,Mid-Roll Overlay,430,N
+7,Post-Roll Fullscreen,300,Y
+8,Post-Roll Fullscreen,310,Y
+9,Side‑Banner (Left),900,N
+10,Side‑Banner (Right),880,N
+11,Banner (Footer),1400,N
+12,Pre‑Roll Fullscreen,720,N
+13,Mid‑Roll Overlay,500,Y
+14,Post‑Roll Fullscreen,340,N
+15,Teaser Overlay,1150,N
+16,Teaser Overlay,1120,Y
+17,Banner (Header),980,N
+18,Fullscreen Interstitial,650,Y
+19,Side‑Banner (Left),920,N
+20,Post‑Roll Fullscreen,360,Y

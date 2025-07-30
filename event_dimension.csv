@@ -1,0 +1,31 @@
+event_id,season_name,major_sport_event,promo_window_flag
+1,Diwali,,1
+2,Christmas,,1
+3,Summer,,0
+4,Ganesh Chaturthi,,1
+5,Navratri,,1
+6,Holi,,1
+7,Easter,,1
+8,Thanksgiving,,1
+9,New Year Eve,,1
+10,Black Friday,,1
+11,,Cricket World Cup,1
+12,,FIFA World Cup,1
+13,,T20 World Cup,1
+14,,Olympics,1
+15,,UEFA Euro,1
+16,,ICC Champions Trophy,0
+17,,IPL,1
+18,,NBA Finals,1
+19,,Super Bowl,1
+20,,Wimbledon,0
+21,,US Open (Tennis),0
+22,,Tour de France,0
+23,,Rugby World Cup,1
+24,,Asian Games,1
+25,,Commonwealth Games,0
+26,,Formula 1 Grand Prix,0
+27,,MotoGP World Championship,0
+28,,Grand Slam of Badminton,0
+29,,World Snooker Championship,0
+30,,Melbourne Cup (Horse Racing),0

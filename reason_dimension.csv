@@ -1,0 +1,51 @@
+reason_id,reason_category,reason_description
+1,Price,Plan is too expensive compared to competitors
+2,Content,Insufficient number of channels available
+3,Service,Poor customer service experience overall
+4,Customer Service,Unresponsive support when issues arise
+5,Relocation,Moving to an area where the service is unavailable
+6,Financial Constraints,Customer unable to afford the subscription
+7,Streaming Services,Switching to on-demand streaming platforms
+8,Technical Issues,Frequent technical glitches and signal loss
+9,Lack of Use,Plan underutilized due to low viewing frequency
+10,Better Offer,Found a better deal with a competitor
+11,Signal Quality,Poor signal strength and constant disruptions
+12,Billing Issues,Recurring billing errors and unexpected charges
+13,Installation Problems,Delayed or unsatisfactory installation service
+14,Hidden Charges,Extra fees that were not clearly communicated
+15,Outdated Technology,Service equipment is outdated and inefficient
+16,Limited Packages,Few package options to suit diverse needs
+17,Unreliable Service,Frequent service outages and interruptions
+18,Unclear Pricing,Confusing pricing structure and hidden costs
+19,Contract Disputes,Disagreements with contract terms and conditions
+20,Maintenance Downtime,Frequent downtime for maintenance work
+21,Promotional Misleading,Promotional offers that did not meet expectations
+22,Change in Preferences,Shift in viewing habits and content preferences
+23,Regional Content,Lack of local or regional channels in the package
+24,Language Barriers,Preferred language channels are missing
+25,Ad Overload,Excessive advertisements during programming
+26,Poor Picture Quality,Low resolution and subpar visual quality
+27,Inadequate Features,Missing interactive or advanced features
+28,Package Complexity,Overly complicated package structure
+29,Competitor Innovation,Competitor offers more innovative services
+30,Service Reliability,Frequent interruptions affecting reliability
+31,Customer Loyalty Issues,No rewards or recognition for loyal customers
+32,Upgrade Issues,Difficulties in upgrading to better plans
+33,Slow Customer Support,Long waiting times for technical support
+34,Network Issues,Poor network infrastructure impacting service quality
+35,Technical Support,Inefficient technical support response
+36,App Performance,Mobile app crashes and performance issues
+37,Regional Expansion,Service not available in newly targeted areas
+38,Unmet Expectations,Service fails to meet advertised features
+39,Quality of Channels,Channels do not offer expected HD quality
+40,Inflexible Plans,No option to customize or change plans easily
+41,Unfriendly Interface,Difficult and outdated user interface on set-top box
+42,Inadequate News Coverage,Insufficient coverage of local and international news
+43,Poor Program Scheduling,Unfavorable scheduling of popular programs
+44,Low Value Add,Lack of additional features or bonus content
+45,Disruptive Ads,Excessive commercials disrupt viewing experience
+46,Energy Consumption,Set-top box uses too much power
+47,Environmental Concerns,Service not aligned with eco-friendly practices
+48,Privacy Concerns,Concerns over data security and privacy breaches
+49,Market Saturation,Too many similar services in the market causing confusion
+50,Service Interruptions,Frequent unexpected interruptions in service
