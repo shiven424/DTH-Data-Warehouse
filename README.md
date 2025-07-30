@@ -1,122 +1,214 @@
-# DTH Data Warehouse Analytics (SSMS Edition)
+# DTH Data Warehouse Analytics (SQL Server Edition)
 
-A comprehensive data warehouse and analytics platform for Direct-to-Home (DTH) service providers, built for SQL Server Management Studio (SSMS). This repository contains all SQL scripts, sample data, and documentation needed to set up, populate, and analyze a DTH analytics warehouse.
+This project provides a comprehensive sample data warehouse designed for Direct‑to‑Home (DTH) television service analytics. It includes SQL Server scripts to build a star schema, sample CSV datasets, analytical queries, and diagrams to explore churn analysis, customer engagement, advertising performance, and more.
 
+---
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Why This Project?](#why-this-project)
-- [Architecture](#architecture)
-- [Data Model](#data-model)
-- [Key Analytics & Reports](#key-analytics--reports)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
+1. [Features](#features)
+2. [Project Structure](#project-structure)
+3. [Data Model](#data-model)
+4. [Setup Guide](#setup-guide)
+5. [Example Analytics](#example-analytics)
+6. [Diagrams](#diagrams)
 
-
-## Project Overview
-
-DTH providers face challenges in managing and analyzing fragmented data from subscriptions, unsubscriptions, content, and customer engagement. This project delivers a centralized data warehouse that unifies these sources, enabling:
-
-- Multidimensional analytics
-- Customer retention strategies
-- Personalized content recommendations
-- Operational and financial reporting
-
+---
 
 ## Features
 
-- **All-in-One SQL Scripts:** All table creation and analytics queries are in `DW_Tables.sql` and `Queries.sql`, compatible with SSMS.
-- **Sample Data Included:** Each table has a corresponding CSV file for easy import and testing.
-- **Aggregated Tables:** Some tables are filled using ETL logic within the SQL scripts, based on data from other tables.
-- **No Complex Folder Structure:** All files are in the root directory for simplicity—no separate ETL, queries, or schema folders.
-- **Visual Documentation:** Diagrams and schema images are provided in the `DWdiagrams` folder.
+* **Self-contained SQL Scripts**
 
+  * `DW_Tables.sql` creates all required dimension, fact, and aggregated tables and includes ETL logic for monthly summaries.
 
+* **Sample Data for Instant Use**
 
-## Why This Project?
+  * CSV files aligned with the schema enable direct loading without external data dependencies.
 
-- **Optimize Customer Retention:** Identify churn drivers and implement targeted retention strategies.
-- **Enhance Personalization:** Analyze viewing patterns to recommend relevant content and offers.
-- **Improve Operational Efficiency:** Unified reporting for marketing, finance, and service teams.
-- **Drive Revenue Growth:** Enable cross-sell, upsell, and dynamic pricing based on real usage data.
+* **Analytics Query Library**
 
+  * `Queries.sql` includes pre-built queries for churn analysis, customer loyalty scoring, content feedback, promotion impact, and cohort-based retention.
 
-## Architecture
+* **Presentation & Documentation**
 
-- **Data Sources:** CSV files for each dimension and fact table.
-- **SQL Scripts:** All schema and analytics logic in `DW_Tables.sql` and `Queries.sql`.
-- **Aggregated Tables:** Populated using SQL ETL logic after base tables are loaded.
-- **Visualization:** Diagrams and schema images in `DWdiagrams`.
+  * ER diagrams, schema images, and a PowerPoint/PDF report describe the overall architecture and information flow.
 
+---
+
+## Project Structure
+
+```
+DTH-Data-Warehouse/
+├── DW_Tables.sql              # Schema creation & ETL
+├── Queries.sql                # Sample analytics queries
+├── customer_dimension.csv     # Sample dimension data
+├── plan_dimension.csv         # More CSVs for each table
+├── DWdiagrams/                # ER diagrams and visuals
+├── Schema.png                 # Star schema overview
+├── Report_Slides.pdf          # Documentation/presentation
+└── README.md                  # This file
+```
+
+> All scripts and datasets are placed in the root directory for ease of use.
+
+---
 
 ## Data Model
 
-### Key Dimension Tables
+This project uses a **star schema** centered around subscription and engagement activities with rich supporting dimensions.
 
-| Table                  | Description                                 |
-|------------------------|---------------------------------------------|
-| Customer_dimension     | Subscriber profile and contact details      |
-| Plan_dimension         | DTH package details                         |
-| Time_dimension         | Calendar hierarchy                          |
-| Channel_dimension      | TV channel metadata                         |
-| Content_dimension      | Episode/series details                      |
-| Reason_dimension       | Churn reasons                               |
-| Promotion_dimension    | Marketing campaigns                         |
-| Event_dimension        | Special broadcast events                    |
-| Ad_exposure_dimension  | Ad impression and skip tracking             |
-| Genre_dimension        | Content genres                              |
+### 📘 Dimension Tables
 
-### Key Fact Tables
+| Table Name              | Description                                |
+| ----------------------- | ------------------------------------------ |
+| `Customer_dimension`    | Subscriber demographics & contact info     |
+| `Plan_dimension`        | Plan names, pricing, and included channels |
+| `Time_dimension`        | Date hierarchy (day, week, month, quarter) |
+| `Channel_dimension`     | Channel metadata and genres                |
+| `Content_dimension`     | Program or episode details                 |
+| `Reason_dimension`      | Reasons for churn or unsubscription        |
+| `Promotion_dimension`   | Promotional campaign metadata              |
+| `Event_dimension`       | Major events or seasonal triggers          |
+| `Ad_exposure_dimension` | Advertisement details and impressions      |
+| `Genre_dimension`       | Genre category mapping                     |
 
-| Table                        | Description                                 |
-|------------------------------|---------------------------------------------|
-| Subscription_fact            | Subscription events and status              |
-| Unsubscription_fact          | Churn events and reasons                    |
-| Feedback_fact                | Customer feedback and ratings               |
-| Customer_engagement_fact     | Viewer interactions and ad exposure         |
-| Monthly_aggregate_fact       | Pre-computed monthly metrics                |
-| Series_monthly_aggregate_fact| Series-level monthly engagement             |
+### 📊 Fact Tables
 
+| Table Name                      | Description                              |
+| ------------------------------- | ---------------------------------------- |
+| `Subscription_fact`             | Subscription records and plan history    |
+| `Unsubscription_fact`           | Customer churn details with reasons      |
+| `Feedback_fact`                 | Feedback mapped to plans and channels    |
+| `Customer_engagement_fact`      | Ad exposure, content viewing, engagement |
+| `Monthly_aggregate_fact`        | Pre-computed monthly KPIs                |
+| `Series_monthly_aggregate_fact` | Series-level monthly summaries           |
 
-## Key Analytics & Reports
+### Sample CSV Structure
 
-- **Churn Analysis:** Unsubscription patterns and root causes
-- **Engagement Metrics:** Viewing duration, view counts, engagement scores
-- **Content Performance:** Top-rated series, busiest channels, genre trends
-- **Customer Segmentation:** Loyalty and churn-risk scoring
-- **Feedback Sentiment:** Channel and plan-level sentiment analysis
-- **Ad Effectiveness:** Engagement lift by ad type
-- **Subscription Trends:** Monthly roll-ups and retention cohorts
+Example: `customer_dimension.csv`
 
+```
+customer_id, customer_name, customer_email, customer_address, customer_city, customer_zipcode
+```
 
-## Setup Instructions
+Example: `plan_dimension.csv`
 
-1. **Clone or Download the Repository**
-   - Download or clone the repo to your local machine.
+```
+plan_id, plan_name, plan_price, channel_package, plan_duration
+```
 
-2. **Database Setup in SSMS**
-   - Open `DW_Tables.sql` in SQL Server Management Studio.
-   - Execute the script to create all tables and relationships.
+These column structures match insert orders used in the SQL scripts.
 
-3. **Import Sample Data**
-   - For each table, use the SSMS Import Wizard or `BULK INSERT` to load the corresponding CSV file (e.g., `customer_dimension.csv` for the `Customer_dimension` table).
+---
 
-4. **Populate Aggregated Tables**
-   - Some tables (e.g., `Monthly_aggregate_fact`, `Series_monthly_aggregate_fact`) are filled using SQL ETL logic included in `DW_Tables.sql`. Run the relevant insert statements after loading base data.
+## Setup Guide
 
-5. **Run Analytics Queries**
-   - Open `Queries.sql` in SSMS.
-   - Execute any analytics or reporting queries as needed.
+### 1. Clone or Download the Repository
 
-6. **Visualize Schema and Analytics**
-   - Refer to images in the `DWdiagrams` folder for schema diagrams and information package visuals.
+```bash
+git clone <repository_url>
+```
 
+Alternatively, download the ZIP and extract it locally.
 
-## Usage
+---
 
-- **Run Analytics Queries:** Use `Queries.sql` to generate reports and insights.
-- **Build Dashboards:** Connect BI tools (e.g., Power BI, Tableau) to your SQL Server database for visualization.
-- **Customize:** Extend the data model or queries as per your requirements.
+### 2. Create the Database
 
+* Open **SQL Server Management Studio (SSMS)**.
+* Execute `DW_Tables.sql` to:
+
+  * Create all dimension, fact, and aggregate tables.
+  * Optionally populate them with sample data.
+
+---
+
+### 3. Load CSV Data
+
+You can load the sample CSVs into their respective tables using:
+
+* **SSMS Import Data Wizard**, or
+* `BULK INSERT` statements (included in `DW_Tables.sql`).
+
+Example tables:
+
+* `Customer_dimension`
+* `Plan_dimension`
+* `Channel_dimension`
+
+---
+
+### 4. Run ETL Logic
+
+Run the ETL section in `DW_Tables.sql` to populate:
+
+* `Monthly_aggregate_fact`
+* `Series_monthly_aggregate_fact`
+
+These contain pre-computed KPIs for faster analytics.
+
+---
+
+### 5. Execute Analytics
+
+* Open `Queries.sql` in SSMS.
+* Run any of the provided analytical queries.
+
+Example analyses include:
+
+* Churn timing
+* Feedback sentiment
+* Promotion lift
+* Viewer engagement trends
+
+---
+
+### 6. Connect to BI Tools (Optional)
+
+You can connect the database to a BI tool such as:
+
+* **Power BI**
+* **Tableau**
+* **Google Data Studio**
+
+Use them to create dashboards and visualize key metrics using the sample data.
+
+---
+
+## Example Analytics
+
+**Query: Average Days to Churn by Reason**
+
+```sql
+SELECT
+  r.reason_category,
+  r.reason_description,
+  ROUND(AVG(DATEDIFF(day, s.subscription_start_date, u.unsubscription_date)), 1) AS avg_days_to_unsub
+FROM Unsubscription_fact u
+JOIN Subscription_fact s
+  ON u.customer_id = s.customer_id
+  AND u.unsubscription_date BETWEEN s.subscription_start_date AND s.subscription_end_date
+JOIN Reason_dimension r
+  ON u.reason_id = r.reason_id
+GROUP BY r.reason_category, r.reason_description
+ORDER BY avg_days_to_unsub DESC;
+```
+
+Other queries compute:
+
+* Channel loyalty scores
+* Promotion effectiveness
+* Viewer cohort behavior
+* Feedback trends by genre or content
+
+---
+
+## Diagrams
+
+Navigate to the `DWdiagrams/` folder to explore:
+
+* Star schema diagram
+* Information package visualizations
+* `Schema.png` for a quick overview
+
+These assets assist in understanding relationships and metric derivations.
